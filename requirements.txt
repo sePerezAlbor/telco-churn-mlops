@@ -3,6 +3,8 @@ uvicorn
 scikit-learn
 pandas
 numpy
+matplotlib.pyplot
+seaborn
 joblib
 lime
 xgboost
