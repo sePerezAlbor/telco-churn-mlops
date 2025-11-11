@@ -3,7 +3,7 @@ uvicorn
 scikit-learn
 pandas
 numpy
-matplotlib.pyplot
+matplotlib
 seaborn
 joblib
 lime
