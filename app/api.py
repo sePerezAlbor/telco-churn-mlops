@@ -6,6 +6,7 @@ import pandas as pd
 app = FastAPI()
 model = joblib.load("app/model.joblib")
 
+
 @app.post("/predict")
 def predict(data: CustomerData):
     df = pd.DataFrame([data.model_dump()])
