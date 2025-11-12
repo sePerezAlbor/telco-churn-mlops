@@ -6,7 +6,7 @@ To run the FastAPI application, use the following command in your terminal (with
 uvicorn app.api:app --reload
 ```
 
-Then open your browser and navigate to [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) and test the endpoints /predict, paste the example JSON payload:
+Then open your browser and navigate to [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) and test the endpoint /predict, paste the example JSON payload:
 
 ```json
 {
