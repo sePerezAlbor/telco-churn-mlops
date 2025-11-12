@@ -14,7 +14,7 @@ class CustomerData(BaseModel):
     OnlineBackup: str       # ['Yes' 'No']
     DeviceProtection: str   # ['Yes' 'No']
     TechSupport: str        # ['Yes' 'No']
-    StreamingTV: str        # ['Yes' 'No']  
+    StreamingTV: str        # ['Yes' 'No']
     StreamingMovies: str    # ['Yes' 'No']
     Contract: str           # ['Month-to-month' 'One year' 'Two year']
     PaperlessBilling: str   # ['Yes' 'No']
